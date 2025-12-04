@@ -29,12 +29,6 @@ cd ai-agent
 uv sync
 ```
 
-Or with pip:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Configuration
 
 1. Create a `.env` file in the project root:
