@@ -12,6 +12,7 @@ An AI-powered code assistant that uses Google's Gemini API to perform file opera
 ## Requirements
 
 - Python >= 3.11
+- `uv` >= 0.9
 - Google Gemini API key
 
 ## Installation
