@@ -5,7 +5,9 @@ result = write_file("calculator", "lorem.txt", "wait, this isn't lorem ipsum")
 print(result)
 print()
 
-print("Test: write_file('calculator', 'pkg/morelorem.txt', 'lorem ipsum dolor sit amet')")
+print(
+    "Test: write_file('calculator', 'pkg/morelorem.txt', 'lorem ipsum dolor sit amet')"
+)
 result = write_file("calculator", "pkg/morelorem.txt", "lorem ipsum dolor sit amet")
 print(result)
 print()
