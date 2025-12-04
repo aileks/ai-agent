@@ -17,17 +17,20 @@ An AI-powered code assistant that uses Google's Gemini API to perform file opera
 ## Installation
 
 1. Clone this repository:
+
 ```bash
-git clone <repository-url>
+git clone https://github.com/aileks/ai-agent
 cd ai-agent
 ```
 
 2. Install dependencies using `uv` (or your preferred package manager):
+
 ```bash
 uv sync
 ```
 
 Or with pip:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -35,6 +38,7 @@ pip install -r requirements.txt
 ## Configuration
 
 1. Create a `.env` file in the project root:
+
 ```bash
 GEMINI_API_KEY=your_api_key_here
 ```
