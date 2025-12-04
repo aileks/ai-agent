@@ -1,1 +1,2 @@
 MAX_FILE_CONTENT_LENGTH = 10000
+WORKING_DIR = "./calculator"
